@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+}
+h2{
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 6px;
+}
+form{
+    background: #fff;
+    padding: 15px 20px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px #aaa;
+}
+label{
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: inherit;
+}
+input[type="email"]{
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: inherit;
+}
+input[type="password"]{
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: inherit;
+}
+select, textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: inherit;
+}
+button{
+    margin-top: 20px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 12PX 25px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+} 
+button:hover{
+    background-color: #0059b3;
+}
+fieldset{
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 6px;
+}
+legend{
+    font-weight: bold;
+    padding: 0 8px; ;
+}
+input[type="radio"],
+input[type="checkbox"]{
+width: auto;
+margin-right: 8px;
+margin-top: 12px;
+}

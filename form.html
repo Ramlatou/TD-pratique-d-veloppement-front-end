@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TD pratiques</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Travaux Dirigés HTML-Formulaires</h1>
+    <h2>Formulaire de contact simple</h2>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Vos informatinos</legend>
+            <label for="prenom1">Prénom:</label>
+            <input type="text" id="prenom1" name="prenom" required>
+            <label for="nom1">Nom:</label>
+            <input type="text" id="nomm1" name="nom" required>
+            <label for="email1">Email:</label>
+            <input type="email" id="email1" name="email" placeholder="exemple@mail.com">
+            <label for="message1">Message:</label>
+            <textarea name="message" id="message1" rows="5"></textarea>
+            <button type="submit">Envoyer</button>
+        </fieldset>
+    </form>
+    <h2>Formulaire d'inscription à une newsletter</h2>
+    <form action="#" method="post">
+        <label for="nom2">Nom:</label>
+        <input type="text" id="nom2" name="nom" placeholder="Votre nom" required>
+        <label for="email2">Adresse E-mail:</label>
+        <input type="email" id="email2" name="email" placeholder="exemple@mail.com" required>
+        <input type="checkbox" id="conditions2" name="conditions" required>
+        <label for="conditions2">J'accepte les conditions d'utilisation</label>
+        <button type="submit">S'abonner</button>
+    </form>
+    <h2>Créer un compte</h2>
+    <form action="#" method="post">
+        <label for="prenom3">Prénom:</label>
+        <input type="text" id="prenom3" name="prenom">
+        <label for="nom3">Nom:</label>
+        <input type="text" id="nom3" name="nom">
+        <label for="email3">E-mail</label>
+        <input type="email" id="email3" name="email" placeholder="exmple@mail.com">
+
+        <label for="motpasse1">Mot de passe:</label>
+        <input type="password" name="motpasse" id="motpasse1">
+        <label for="pays1">Pays:</label>
+        <select name="pays" id="pays1" >
+            <option value="">--Choisir un pays--</option>
+            <option value="ne">Niger</option>
+            <option value="bf">Burkina Faso</option>
+            <option value="mi">Mali</option>
+            <option value="ci">Cote d'Ivoire</option>
+            <option value="ci">Benin</option>
+        </select>
+        <p>Genre:</p>
+        <input type="radio" name="genre" id="homme" value="homme" required>
+        <label for="homme">Homme</label>
+        <input type="radio" id="femme" name="genre" value="femme"required>
+        <label for="femme">Femme</label>
+<button type="submit">Créer mon compte</button>
+    </form>
+</body>
+</html>
